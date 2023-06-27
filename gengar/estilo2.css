@@ -1,0 +1,188 @@
+body {
+    background-image: url(imgs/back.webp);
+    background-size: cover;
+    color: white;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+@font-face {
+    font-family: 'pokemon';
+    src: url('fontes/Pokemon\ Solid.ttf') format('truetype');
+}
+
+header {
+    background-color: rgba(148, 18, 160, 0.95);
+    padding-top: 1px;
+    text-align: center;
+}
+
+html,
+body {
+    min-height: 100%;
+}
+
+#lista,
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:larger;
+    margin-left: 80px;
+    padding: 10px;
+    border-radius: 7px;
+    margin-top: 2px;
+    text-align: justify;
+}
+
+#lista {
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+
+}
+
+h1 {
+    font-family: pokemon;
+}
+
+h2 {
+    font-family: "Aldrich", sans-serif;
+}
+
+h1+h2 {
+    font-size: 100%;
+    margin-top: 0.5em;
+    color: rgb(82, 2, 85);
+    display: inline-flex;
+}
+
+header ul {
+    padding: 6px;
+    margin-bottom: 0;
+    background-color: black;
+}
+
+header li {
+    list-style: none;
+    display: inline-block;
+    font-family: pokemon;
+    border-bottom: 5px;
+    margin: 0 4em;
+}
+
+header li:hover {
+    border-bottom-color: currentColor;
+}
+
+header a {
+    text-decoration: none;
+    text-shadow: 1px 1px black;
+}
+
+a:link {
+    color: rgb(158, 6, 158);
+}
+
+a:hover {
+    color: rgb(181, 52, 207);
+}
+
+main {
+    padding-left: 2.5%;
+}
+
+.h {
+    margin-bottom: -10px;
+    margin-left: 80px;
+    margin-right: 450px;
+    text-shadow: 4px 3px 4px rgba(0, 0, 0, 0.59);
+}
+
+div {
+    margin-left: 80px;
+    max-width: 60%;
+    border-radius: 7px;
+    background-color: rgba(203, 70, 221, 0.712);
+    box-sizing: content-box;
+  }
+
+@media (min-width: 481px) and (max-width: 800px) {
+    #div.principal p {
+        width: calc(95% / 3);
+    }
+}
+
+@media (max-width: 480px) {
+    #div.principal p {
+        width: calc(95% / 2);
+    }
+}
+
+@media (max-width: 400px) {
+    #div.principal p {
+        width: calc(95% /1);
+    }
+}
+
+td,
+th {
+    padding: 6px 15px 6px 15px;
+}
+
+thead, .head {
+    background-color: rgb(101, 0, 141);
+    border: 2px solid rgba(255, 255, 255, 0.521);
+    border-collapse: collapse;
+
+}
+
+tbody {
+    background-color: rgba(255, 255, 255, 0.836);
+}
+
+table {
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+    border-collapse: collapse;
+    font-family: pokemon;
+    color: black;
+    margin: auto;
+    position: absolute;
+    right: 2%;
+    top: 25%;
+}
+
+img {
+    width: 78px;
+    height: 100%;
+}
+
+caption {
+    background-color: rgba(101, 5, 139, 0.842);
+    font-size: 20px;
+    font-family: pokemon;
+}
+#status {
+    width: 250px;
+    height: 220px;
+    position: absolute;
+    top: 75%;
+    left: 8%;
+}
+#gengarcard {
+    width: 250px;
+    height: 224px;
+    position: absolute;
+    top: 75%;
+    left: 28%;
+}
+#card2{
+    width: 250px;
+    height: 220px;
+    position: absolute;
+    top: 75%;
+    left: 49%;
+}
